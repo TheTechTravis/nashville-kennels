@@ -7,7 +7,7 @@ import React, { useState, useEffect } from "react"
 export const LocationContext = React.createContext()
 
 /*
- This component establishes what data can be used.
+    This component establishes what data can be used.
  */
 export const LocationProvider = (props) => {
     const [locations, setLocations] = useState([])
