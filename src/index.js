@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { Kennel } from './components/Kennel';
 import reportWebVitals from './reportWebVitals';
+import { Animal } from './components/animal/Animal';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Kennel />
   </React.StrictMode>,
   document.getElementById('root')
 );
