@@ -6,6 +6,20 @@
             "breed": "Poodle",
             "customerId": 1,
             "locationId": 2
+        },
+        {
+            "id": 2,
+            "name": "Choodles",
+            "breed": "Poodle",
+            "customerId": 1,
+            "locationId": 2
+        },
+        {
+            "id": 3,
+            "name": "Croodles",
+            "breed": "Poodle",
+            "customerId": 1,
+            "locationId": 2
         }
     ],
     "customers": [
@@ -13,9 +27,40 @@
             "id": 1,
             "name": "Hannah Hall",
             "address": "7002 Chestnut Ct"
+        },
+        {
+            "id": 2,
+            "name": "Hannah Hall",
+            "address": "7002 Chestnut Ct"
+        },
+        {
+            "id": 3,
+            "name": "Hannah Hall",
+            "address": "7002 Chestnut Ct"
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Scott Silver",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Jisie David",
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Bryan Nilsen",
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "name": "Madie Peper",
+            "locationId": 2
+        }
+    ],
     "locations": [
         {
             "id": 1,
