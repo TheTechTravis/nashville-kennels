@@ -3,6 +3,10 @@ import { LocationList } from "./location/LocationList"
 import { LocationProvider } from "./location/LocationProvider"
 import { AnimalProvider } from "./animal/AnimalProvider"
 import { AnimalList } from "./animal/AnimalList"
+import { CustomerProvider } from "./customer/CustomerProvider"
+import { CustomerList } from "./customer/CustomerList"
+import { EmployeeProvider } from "./employee/EmployeeProvider"
+import { EmployeeList } from "./employee/EmployeeList"
 import "./Kennel.css"
 
 export const Kennel = () => (
@@ -19,5 +23,15 @@ export const Kennel = () => (
         <AnimalProvider>
             <AnimalList />
         </AnimalProvider> 
+
+        <h2>Customers</h2>
+        <CustomerProvider>
+            <CustomerList />
+        </CustomerProvider>
+
+        <h2>Employees</h2>
+        <EmployeeProvider>
+            <EmployeeList />
+        </EmployeeProvider> 
     </>
 )

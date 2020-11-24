@@ -25,18 +25,18 @@
     "customers": [
         {
             "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
+            "name": "Travis Stevenson",
+            "address": "235 Momma Dr"
         },
         {
             "id": 2,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
+            "name": "Matthew Machurek",
+            "address": "7002 Cool Kid Ct"
         },
         {
             "id": 3,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
+            "name": "Shawn Conerton",
+            "address": "1911 Butterscotch Ln"
         }
     ],
     "employees": [

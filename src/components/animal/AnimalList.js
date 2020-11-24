@@ -4,7 +4,7 @@ import { Animal } from "./Animal"
 import "./Animal.css"
 
 export const AnimalList = () => {
-    // This state changes when `getLocations()` is invoked below
+    // This state changes when `getAnimals()` is invoked below
     const { animals, getAnimals } = useContext(AnimalContext)
 
     /*
@@ -27,9 +27,9 @@ export const AnimalList = () => {
     }, [animals])
 
     return (
-        <div className="locations">
+        <div className="animals">
             {
-                animals.map(animal => <Animal key={animal.id} animal={animal} />)
+                animals.map(animal => <Animal key={animal.id} animalObject={animal} />)
             }
         </div>
     )
