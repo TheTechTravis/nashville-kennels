@@ -29,7 +29,7 @@ export const LocationList = () => {
     return (
         <div className="locations">
         {
-            locations.map(loc => <Location key={loc.id} location={loc} />)
+            locations.map(loc => <Location key={loc.id} locationObject={loc} />)
         }
         </div>
     )
