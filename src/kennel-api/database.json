@@ -1,76 +1,88 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "name": "Choodles",
-            "breed": "Poodle",
-            "customerId": 2,
-            "locationId": 2
-        },
-        {
-            "id": 3,
-            "name": "Croodles",
-            "breed": "Poodle",
-            "customerId": 3,
-            "locationId": 2
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Travis Stevenson",
-            "address": "235 Momma Dr"
-        },
-        {
-            "id": 2,
-            "name": "Matthew Machurek",
-            "address": "7002 Cool Kid Ct"
-        },
-        {
-            "id": 3,
-            "name": "Shawn Conerton",
-            "address": "1911 Butterscotch Ln"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Scott Silver",
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "name": "Jisie David",
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Bryan Nilsen",
-            "locationId": 2
-        },
-        {
-            "id": 4,
-            "name": "Madie Peper",
-            "locationId": 2
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Choodles",
+      "breed": "Poodle",
+      "customerId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "Croodles",
+      "breed": "Poodle",
+      "customerId": 3,
+      "locationId": 2
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Travis Stevenson",
+      "address": "235 Momma Dr"
+    },
+    {
+      "id": 2,
+      "name": "Matthew Machurek",
+      "address": "7002 Cool Kid Ct"
+    },
+    {
+      "id": 3,
+      "name": "Shawn Conerton",
+      "address": "1911 Butterscotch Ln"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Scott Silver",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jisie David",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Bryan Nilsen",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Madie Peper",
+      "locationId": 2
+    },
+    {
+      "name": "Test",
+      "locationId": 1,
+      "animalId": 2,
+      "id": 5
+    },
+    {
+      "name": "Test 2 ",
+      "locationId": 2,
+      "animalId": 1,
+      "id": 6
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }
