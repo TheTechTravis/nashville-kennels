@@ -25,40 +25,14 @@
     {
       "id": 1,
       "name": "Scott Silver",
-      "locationId": 1
-    },
-    {
-      "id": 2,
-      "name": "Jisie David",
-      "locationId": 1
-    },
-    {
-      "id": 3,
-      "name": "Bryan Nilsen",
-      "locationId": 2
-    },
-    {
-      "id": 4,
-      "name": "Madie Peper",
-      "locationId": 2
+      "locationId": 1,
+      "animalId": 4
     },
     {
       "name": "Test",
       "locationId": 1,
-      "animalId": 2,
-      "id": 5
-    },
-    {
-      "name": "Test 2 ",
-      "locationId": 2,
-      "animalId": 1,
-      "id": 6
-    },
-    {
-      "name": "New Guy",
-      "locationId": 1,
-      "animalId": 1,
-      "id": 7
+      "animalId": 5,
+      "id": 2
     }
   ],
   "locations": [
