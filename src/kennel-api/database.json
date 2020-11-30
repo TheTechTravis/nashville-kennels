@@ -24,19 +24,10 @@
   ],
   "customers": [
     {
-      "id": 1,
+      "email": "travis@outlook.com",
+      "password": "Test",
       "name": "Travis Stevenson",
-      "address": "235 Momma Dr"
-    },
-    {
-      "id": 2,
-      "name": "Matthew Machurek",
-      "address": "7002 Cool Kid Ct"
-    },
-    {
-      "id": 3,
-      "name": "Shawn Conerton",
-      "address": "1911 Butterscotch Ln"
+      "id": 1
     }
   ],
   "employees": [
@@ -71,6 +62,12 @@
       "locationId": 2,
       "animalId": 1,
       "id": 6
+    },
+    {
+      "name": "New Guy",
+      "locationId": 1,
+      "animalId": 1,
+      "id": 7
     }
   ],
   "locations": [
