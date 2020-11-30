@@ -1,25 +1,16 @@
 {
   "animals": [
     {
-      "id": 1,
-      "name": "Doodles",
-      "breed": "Poodle",
+      "name": "Test",
+      "locationId": 1,
       "customerId": 1,
-      "locationId": 1
+      "id": 4
     },
     {
-      "id": 2,
-      "name": "Choodles",
-      "breed": "Poodle",
-      "customerId": 2,
-      "locationId": 2
-    },
-    {
-      "id": 3,
-      "name": "Croodles",
-      "breed": "Poodle",
-      "customerId": 3,
-      "locationId": 2
+      "name": "Doodles",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 5
     }
   ],
   "customers": [

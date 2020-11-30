@@ -9,6 +9,7 @@ import { AnimalList } from "./animal/AnimalList"
 import { EmployeeList } from "./employee/EmployeeList"
 import { CustomerList } from "./customer/CustomerList"
 import { EmployeeForm } from "./employee/EmployeeForm"
+import { AnimalForm } from "./animal/AnimalForm"
 
 export const ApplicationViews = (props) => {
     return (
@@ -24,9 +25,15 @@ export const ApplicationViews = (props) => {
                 <LocationProvider>
                     <CustomerProvider>
                         {/* Render the animal list when http://localhost:3000/animals */}
-                        <Route path="/animals">
-                            <AnimalList />
-                        </Route>
+                        <Route exact path="/animals" render={
+                            props => <AnimalList {...props} />
+                        } />
+
+                        {/* Render a form to allow a customer to admit their animal to one of the Nashville Kennel locations when visiting "http://localhost:3000/animals/create" */}
+                        <Route exact path="/animals/create" render={
+                            props => <AnimalForm {...props} />
+                        } />
+
                     </CustomerProvider>
                 </LocationProvider>
             </AnimalProvider>
