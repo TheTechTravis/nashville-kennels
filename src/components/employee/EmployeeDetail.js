@@ -8,7 +8,7 @@ import "./Employee.css"
 export const EmployeeDetail = (props) => {
     const { animals, getAnimals } = useContext(AnimalContext)
     const { locations, getLocations } = useContext(LocationContext)
-    const { employees, getEmployees } = useContext(EmployeeContext)
+    const { employees, removeEmployee, getEmployees } = useContext(EmployeeContext)
 
     const [animal, setAnimal] = useState({})
     const [employee, setEmployee] = useState({})
@@ -38,14 +38,26 @@ export const EmployeeDetail = (props) => {
     return (
         <section className="employee">
             <h3 className="employee__name">{employee.name}</h3>
-            <div>Currently working at { location.name }</div>
+            <div>Currently working at {location.name}</div>
             <div>
                 {
-                (employee.animalId === null)
-                    ? "Not assigned to an animal"
-                    : `Currently taking care of ${animal.name}`
+                    (employee.animalId === null)
+                        ? "Not assigned to an animal"
+                        : `Currently taking care of ${animal.name}`
                 }
             </div>
+
+            {/* Remove Employee Button */}
+            <button className="btn--removeEmployee"
+                onClick={() => {
+                    // Code to delete employee from database
+                    const chosenEmployeeId = +(props.match.params.employeeId)
+                    removeEmployee(chosenEmployeeId)
+                        .then(() => {
+                            props.history.push(`/employees`)
+                        })
+                }}
+            >Remove Employee</button>
         </section>
     )
 }
