@@ -22,6 +22,7 @@ export const AnimalDetail = (props) => {
             <div className="animal__owner">Customer: {animal.customer.name}</div>
             <button className="btn--release"
                 onClick={() => {
+                    // The line below gets the id of the animal User is currently viewing so that it may be passed to releaseAnimal()
                     const chosenAnimalId = +(props.match.params.animalId)
                     releaseAnimal(chosenAnimalId)
                         .then(() => {
