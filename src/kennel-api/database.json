@@ -1,16 +1,18 @@
 {
   "animals": [
     {
+      "id": 4,
       "name": "Test",
       "locationId": 1,
-      "customerId": 1,
-      "id": 4
+      "treatment": "Explosive Diarrhea",
+      "customerId": 1
     },
     {
+      "id": 5,
       "name": "Doodles",
       "locationId": 1,
-      "customerId": 1,
-      "id": 5
+      "treatment": "Shingles",
+      "customerId": 1
     }
   ],
   "customers": [
