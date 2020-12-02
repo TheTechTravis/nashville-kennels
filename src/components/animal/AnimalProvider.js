@@ -11,6 +11,8 @@ export const AnimalContext = React.createContext()
  */
 export const AnimalProvider = (props) => {
     const [animals, setAnimals] = useState([])
+    const [searchTerms, setSearchTerms] = useState("")
+
     // useState returns [initial value of state variable, a function to set the value of the state variable
 
     const getAnimals = () => {
@@ -43,7 +45,7 @@ export const AnimalProvider = (props) => {
     */
     return (
         <AnimalContext.Provider value={{
-            animals, addAnimal, getAnimals, getAnimalById
+            animals, addAnimal, getAnimals, getAnimalById, searchTerms, setSearchTerms
         }}>
             {props.children}
         </AnimalContext.Provider>
