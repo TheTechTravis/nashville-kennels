@@ -18,6 +18,7 @@ export const AnimalList = ({ history }) => {
             1. The animal state changes. First when it is created, then once you get the animals from the API
             2. When the search terms change, which happens when the user types something in the AnimalSearch component
     */
+
     useEffect(() => {
         // If the search field is not blank, display matching animals
         if (searchTerms !== "") {
